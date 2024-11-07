@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <style>
     /* Reset margins and paddings */
@@ -78,7 +77,6 @@
     }
 </style>
 <body>
-    <?php include 'Capstone2/header.php'?>
     <div class="container-all">
     <div class="login">
         <button class="login-btn">
@@ -96,13 +94,5 @@
         </button>
     </div>
     </div>
-    <script>
-        document.querySelector('.login-btn').addEventListener('click', function() {
-            window.location.href = 'Face_API/Python/login.php';
-        });
-        document.querySelector('.register-btn').addEventListener('click', function() {
-            window.location.href = 'Face_API/Python/register.php';
-        });
-    </script>
 </body>
 </html>
