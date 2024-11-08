@@ -101,7 +101,7 @@
             window.location.href = '/?page=login';
         });
         document.querySelector('.register-btn').addEventListener('click', function() {
-            window.location.href = '/?page=Face_API/Python/register';
+            window.location.href = '/?page=register';
         });
     </script>
 </body>

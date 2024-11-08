@@ -149,7 +149,7 @@ session_start();
 </head>
 
 <body>
-    <?php include '../../Capstone2/header.php'; ?>
+    <?php include 'header.php'; ?>
     <div class="container-all">
         <div class="left-container">
 

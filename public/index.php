@@ -1,6 +1,5 @@
 <?php
 
-//$data = json_decode(file_get_contents(__DIR__ . "/assets/datas/data.json"), true);
 
 $page = $_GET['page'] ?? null;
 
@@ -10,6 +9,9 @@ switch ($page) {
         break;
     case 'login':
         require_once __DIR__ . "/pages/login.php";
+        break;
+    case 'register':
+        require_once __DIR__ . "/pages/register.php";
         break;
     case null:
         require_once __DIR__ . "/pages/home.php";
