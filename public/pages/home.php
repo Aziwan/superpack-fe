@@ -78,7 +78,7 @@
     }
 </style>
 <body>
-    <?php include '..\assets\widgets\header.php'?>
+    <?php include '/widgets/header.php'?>
     <div class="container-all">
     <div class="login">
         <button class="login-btn">
@@ -98,7 +98,7 @@
     </div>
     <script>
         document.querySelector('.login-btn').addEventListener('click', function() {
-            window.location.href = '/?page=Face_API/Python/login';
+            window.location.href = '/?page=login';
         });
         document.querySelector('.register-btn').addEventListener('click', function() {
             window.location.href = '/?page=Face_API/Python/register';
