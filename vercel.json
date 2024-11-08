@@ -28,6 +28,10 @@
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
+    },
+    {
+      "src": "/widgets/(.*)",
+      "dest": "/public/assets/widgets/$1"
     }
   ]
 }
