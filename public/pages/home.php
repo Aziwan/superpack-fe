@@ -78,7 +78,7 @@
     }
 </style>
 <body>
-    <?php include '/Capstone2/header.php'?>
+    <?php include '../Capstone2/header.php'?>
     <div class="container-all">
     <div class="login">
         <button class="login-btn">
