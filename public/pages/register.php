@@ -250,7 +250,7 @@
             console.log(dataPayload);
 
             // Send the image data to the Python script
-            fetch('https://superpack-adu.com:5000/Face_API/register', {  // Adjust the URL to your Python script's path
+            fetch('https://superpack-adu.com:5000/Face_API/receive', {  // Adjust the URL to your Python script's path
                 method: 'POST',
                 body: JSON.stringify(dataPayload),
                 headers: {
