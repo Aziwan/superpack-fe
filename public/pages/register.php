@@ -250,7 +250,7 @@
             console.log(dataPayload);
 
             // Send the image data to the Python script
-            fetch('https://superpack-be.vercel.app/Face_API/receive', {  // Adjust the URL to your Python script's path
+            fetch('https://superpack-be-yj2q.onrender.com/Face_API/receive', {  // Adjust the URL to your Python script's path
                 method: 'POST',
                 body: JSON.stringify(dataPayload),
                 headers: {
