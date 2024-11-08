@@ -98,10 +98,10 @@
     </div>
     <script>
         document.querySelector('.login-btn').addEventListener('click', function() {
-            window.location.href = 'Face_API/Python/login.php';
+            window.location.href = '/?page=Face_API/Python/login';
         });
         document.querySelector('.register-btn').addEventListener('click', function() {
-            window.location.href = 'Face_API/Python/register.php';
+            window.location.href = '/?page=Face_API/Python/register';
         });
     </script>
 </body>

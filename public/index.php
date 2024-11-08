@@ -8,6 +8,9 @@ switch ($page) {
     case 'home':
         require_once __DIR__ . "/pages/home.php";
         break;
+    case 'login':
+        require_once __DIR__ . "/pages/login.php";
+        break;
     case null:
         require_once __DIR__ . "/pages/home.php";
         break;
